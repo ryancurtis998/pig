@@ -4,7 +4,7 @@ This is a web game application that enables users to play a dice game through si
 
 ## Author name
 
-[Ryan curtis]
+ Ryan curtis
 
 ## Project Description
 
@@ -24,7 +24,7 @@ This game application that allows two players to play a dice game by tossing aro
 ## BDD
 
 | Behavior        | Result |
-| ------------- |:----:|
+
 | Players input there names and clicks ready to play button | game is shown |
 | first player clicks roll button | Dice rolls and numbers are generated/ dice rolls are added together to the round total|
 | first player clicks hold button | Dice holds and numbers stopped from been generated/total rounds are pushed to total score|
