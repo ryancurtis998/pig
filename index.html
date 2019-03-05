@@ -1,27 +1,32 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/styles.css">
-  <script src="js/jquery-3.3.1.js"></script>
-<script src="js/script.js"></script>
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=ZCOOL+KuaiLe" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Concert+One" rel="stylesheet">
     <title>Pig dice</title>
   </head>
   <body>
+
+    <!-- playerone -->
     <div class="player-1-panel">
 
       <div class="game-panel">
 
-       <p class="playername1" id="name-1">Player 2</p>
+       <p class="playername1" id="name-1">Player 1</p>
 
 
-<p class="playerscore1" id="score-1">0</p>
+<p class="playerscore1">Dice: <span id="scoreOne"></span> </p>
 
-        <p class="rolled-dice" id="noo!"></p>
+        <p class="rolled-dice">Turn total: <span id="noo"></span> </p>
 
         <div class="score-board">
 
-          <p class="initial-score">INITIAL SCORE</p>
+          <p class="initial-score">PLAYER SCORE</p>
 
         <p class="player-initial-score" id="total-score">0</p>
 
@@ -31,19 +36,21 @@
       </div>
 
     </div>
+
+    <!-- playertwo -->
     <div class="player-2-panel">
 
       <div class="game-panel">
 
        <p class="playername2" id="name-2">Player 2</p>
 
-        <p class="player-score-2" id="score-2">0</p>
+        <p class="player-score-2">Dice: <span id="scoreTwo"></span> </p>
 
-          <p class="rolled-dice" id="noo!"></p>
+          <p class="rolled-dice"> Turn total: <span id="noo1"></span> </p>
 
             <div class="score-board">
 
-              <p class="initial-score">INITIAL SCORE</p>
+              <p class="initial-score">PLAYER SCORE</p>
 
               <p class="player-initial-score" id="total-score">0</p>
 
@@ -55,15 +62,22 @@
 
     <div class="game-panel">
 
-      <button class="btn-game" type="button" id="new-game" onclick="reset()"><b>New game</b></button>
+    <a href="index.html"><button class="btn-game" type="button" id="new-game"><b>New game</b></button></a>
 
-      <button class="btn-roll" type="button" name="button" id="button-roll"><b>Roll dice</b></button>
+      <button class="btn-roll" type="button" name="button" id="buttonRoll"><b>Roll dice</b></button>
 
        <button class="btn-hold" type="button" id="holdButton"> <b>Hold</b></button>
 
+
        </div>
 
+       <div class="game-panel2">
+       <a href="index.html"><button class="btn-game2" type="button" id="new-game"><b>New game</b></button></a>
 
+       <button class="btn-roll2" type="button" name="button" id="buttonRoll2"><b>Roll dice</b></button>
+
+       <button class="btn-hold2" type="button" id="holdButton"> <b>Hold</b></button>
+      </div>
 
   </body>
 </html>

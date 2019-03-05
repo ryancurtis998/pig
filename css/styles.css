@@ -1,0 +1,86 @@
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+div {
+  display: block;
+}
+
+p{
+  font-family: 'Concert One', cursive;
+  font-size: 20px;
+}
+.player-1-panel {
+  width: 50%;
+  float: left;
+  height: 600px;
+  background-color: #85f541;
+  color:  #0b29e8;
+}
+
+.player-2-panel {
+  width: 50%;
+  float: right;
+  height: 600px;
+  background-color: #c8f2ae;
+  color:  #0b29e8;
+}
+button {
+    position: absolute;
+    width: 200px;
+    left: 43%;
+    color:   #0b29e8;
+    background: none;
+    border: none;
+    font-family: 'ZCOOL KuaiLe', cursive;
+    font-size: 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: 300;
+
+}
+.btn-game {
+    top: 375px;
+}
+.btn-roll {
+    top: 413px;
+}
+.btn-hold {
+    top: 477px;
+}
+.btn-game2 {
+    top: 376px;
+}
+.btn-roll2 {
+    top: 414px;
+}
+.btn-hold2 {
+    top: 478px;
+}
+.game-panel2 {
+  display:none;
+}
+.player-current-score{
+  font-size: 30px;
+}
+
+.dice-rolled {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.score-box {
+  background-color: #2ecc71;
+  color: #fff;
+  width: 25%;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  border-radius: 25px;
+}
+
+.current-score {
+  margin-bottom: 15px;
+}
