@@ -84,3 +84,9 @@ button {
 .current-score {
   margin-bottom: 15px;
 }
+.buttons2 {
+  display: none;
+}
+.final {
+  display: none;
+}
